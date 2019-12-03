@@ -12,14 +12,15 @@
   </head>
   <body>
   <main class="container-fluid">
-    <div class="row">
-      <?php
-      include ("./home/header.php");
-      include ("./home/navigation.php");
-      include ("./home/content.php");
-      include ("./home/footer.php");
-    ?>
-  </main>
+      <div class="row">
+        <?php
+        include ("./home/header.php");
+        include ("./opleiding/navigation.php");
+        include ("./opleiding/content.php");
+        include ("./home/footer.php");
+      ?>
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
